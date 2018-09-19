@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculateAreaOfCircle.cs" />
+    <Compile Include="..\..\GeometryCalculations\CalculateAreaOfCircle.cs">
+      <Link>CalculateAreaOfCircle.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
